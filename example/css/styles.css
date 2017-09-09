@@ -1,21 +1,36 @@
 @charset "UTF-8";
+
+
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:400,700|Cabin+Condensed:400,600");
 
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url('http://themes.googleusercontent.com/static/fonts/opensans/v5/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
+}
+
+
+
 body {
-  background-color: #FFF;
+  background-color: #a1a9c4;
   margin: 0px;
-  font-family: Ubuntu, sans-serif;
+/*  font-family: Ubuntu, sans-serif;
+*/    font-family: 'open sans',arial,sans-serif;
+
   color: #1e1e1e;
   font-weight: normal;
   padding-top: 0;
 }
 
 h1, h2, h3, h4 {
-  font-family: "Cabin Condensed", sans-serif;
+/*  font-family: "Cabin Condensed", sans-serif;
+*/    font-family: 'open sans',arial,sans-serif;
+
 }
 
 header {
-  background: #FFC600;
+  background: #108c5e;
   padding: 1em;
 }
 
@@ -25,7 +40,7 @@ header .headline {
 }
 
 header .headline h1 {
-  color: #FFDD69;
+  color: white;
   font-size: 3em;
   margin-bottom: 0;
 }
@@ -35,7 +50,7 @@ header .headline h2 {
 }
 
 footer {
-  background: #0A4DB7;
+  background: #108c5e;
   color: #6C9CE8;
   padding: 1em 2em 2em;
 }
